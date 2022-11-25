@@ -5,7 +5,7 @@ import axios from "axios";
 import convertir from "../helpers/Categorias";
 import Nav from "../helpers/Nav";
 
-const index = () => {
+const Index = () => {
   const [data, setData] = useState([]);
   console.log(data);
   const [editMode, setEditMode] = useState(false);
@@ -154,7 +154,7 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
 
 
 
