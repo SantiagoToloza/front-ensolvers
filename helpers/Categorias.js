@@ -4,7 +4,7 @@ const convertir = (dato) => {
     }else if (dato === 2 ){
         return "En Proceso"
     }else{
-        return "terminado"
+        return "Finalizado"
     }
 }
 

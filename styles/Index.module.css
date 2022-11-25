@@ -27,6 +27,7 @@
 }
 
 .resultado {
+    color: black;
     width: 200px;
     margin: 0 auto;
     display: flex;
@@ -34,5 +35,14 @@
     margin-top: 3rem;
     flex-direction: column;
     text-align: center;
-   
+    background-color: white;
+    border-radius: 4px;
+}
+
+.resultado button{
+    margin: 20px;
+}
+
+.index{
+    text-align: center;
 }

@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import styles from "../styles/Index.module.css";
 import axios from "axios";
 import convertir from "../helpers/Categorias";
+import Nav from "../helpers/Nav";
 
 const index = () => {
   const [data, setData] = useState([]);
@@ -86,7 +87,10 @@ const index = () => {
   }, []);
 
   return (
+
     <div className={styles.index}>
+      <Nav/>
+      <h1>Crear</h1>
       <form onSubmit={handleCreateData} className={styles.formSubmit}>
         <input
           value={inputdata.title || ""}
@@ -151,5 +155,7 @@ const index = () => {
 };
 
 export default index;
+
+
 
 
